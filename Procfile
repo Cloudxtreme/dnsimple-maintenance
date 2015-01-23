@@ -1,1 +1,1 @@
-web: dnsimple-api-maintenance
+web: dnsimple-maintenance

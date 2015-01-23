@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/aetrion/dnsimple-api-maintenance",
+	"ImportPath": "github.com/aetrion/dnsimple-maintenance",
 	"GoVersion": "go1.3.3",
 	"Deps": []
 }
