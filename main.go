@@ -45,7 +45,7 @@ func MaintenanceHandler(res http.ResponseWriter, req *http.Request) {
 func appMaintenance(res http.ResponseWriter, req *http.Request) {
 	res.Header().Set("Content-Type", "application/html; charset=UTF-8")
 	res.WriteHeader(http.StatusServiceUnavailable)
-	fmt.Fprintln(res, fmt.Sprintf("<h1>%s</h1><p>Follow the updates at the <a href='%s'>status site</a></p>", maintenance.Message, maintenance.Href))
+	fmt.Fprintln(res, fmt.Sprintf("<html><head><title>%s</title></head><body><h1>%s</h1><p>Follow the updates at the <a href='%s'>status site</a></p></body></html>", maintenance.Message, maintenance.Message, maintenance.Href))
 }
 
 func apiMaintenance(res http.ResponseWriter, req *http.Request) {
