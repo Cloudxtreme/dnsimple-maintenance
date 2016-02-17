@@ -11,8 +11,8 @@ import (
 
 var (
 	maintenance = maintenanceResponse{
-		Message: "Scheduled Maintenance for December 09, 00:00 - 01:00 UTC",
-		Href:    "http://dnsimplestatus.com/incidents/w5725msg81fc"}
+		Message: "Scheduled Maintenance for February 17, 02:15 - 02:30 UTC",
+    Href:    "http://dnsimplestatus.com/incidents/hllhhdnpdcgh"}
 
 	apiHost = regexp.MustCompile(`^api\.`)
 )
